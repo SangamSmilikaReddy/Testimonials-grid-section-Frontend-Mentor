@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+*{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+h1{
+    Font-size: 20px;
+    font-weight: 600;
+}
+p{
+    Font-size: 13px;
+    word-spacing: 1px;
+    line-height: 18px;
+    font-stretch: expanded;
+    line-break: loose;
+}
+br{
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(210, 46%, 95%);
+    margin: 150px 100px 150px 175px;
+    max-width: 1155px;
+}
+.daniel{
+    display: inline-block;
+    background-color:  hsl(263, 55%, 52%);
+    background-image: url(bg-pattern-quotation.svg);
+    background-position: 350px 0px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-right: 30px;
+    width: 550px;
+    height: 300px;
+    box-shadow: 5px 5px 10px hsl(263, 28%, 47%);
+}
+.jonathan{
+    display: inline-block;
+    background-color: hsl(217, 19%, 35%);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-right: 30px;
+    width: 250px;
+    height: 300px;
+    box-shadow: 5px 5px 10px hsl(218, 12%, 32%);
+}
+.patrick{
+    display: inline-block;
+    background-color: hsl(219, 29%, 14%);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-right: 20px;
+    width: 550px;
+    height: 300px;
+    margin-top: 20px;
+    color: white;
+    box-shadow: 5px 5px 10px hsl(217, 15%, 24%);
+}
+.Kira{
+    display: inline-block;
+    background-color: hsl(0, 0%, 100%);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 20px;
+    width: 500px;
+    height: 620px;
+    box-shadow: 5px 5px 10px hsl(0, 0%, 47%);
+}
+.jeanette{
+    display: inline-block;
+    background-color: hsl(0, 0%, 100%);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-right: 30px;
+    width: 250px;
+    height: 300px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px hsl(0, 0%, 58%);
+}
+.intro{
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.intro p{
+    color: hsl(223, 47%, 23%);
+    font-weight: 600;
+    margin-right: auto;
+    Font-size: 13px;
+}
+.intro p span{
+    color: hsl(223, 47%, 23%);
+    font-weight: 500;
+    margin-top: 10px;
+    opacity: 50%;
+    Font-size: 13px;
+}
+.intro img{
+    padding-right: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.intro1{
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.intro1 p{
+    color: white;
+    font-weight: 600;
+    margin-right: auto;
+    Font-size: 13px;
+}
+.intro1 p span{
+    color: white;
+    margin-top: 10px;
+    font-weight: 500;
+    opacity: 50%;
+    Font-size: 13px;
+}
+.intro1 img{
+    padding-right: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+}
+.info{
+    margin-top: 20px;
+    padding-left: 30px;
+    color:hsl(0, 0%, 100%);
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.info p{
+    opacity: 70%;
+    font-weight: 500;
+}
+
+.Kira .info{
+    color: hsl(217, 19%, 35%);
+    font-weight: 500;
+}
+.Kira .info p{
+    padding-top: 10px;
+}
+.jeanette .info{
+    color: hsl(217, 19%, 35%);
+    font-weight: 500;
+}
